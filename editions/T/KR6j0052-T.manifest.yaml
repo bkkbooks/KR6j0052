@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6j0052/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0052/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說祕密相經
+  identifiers:
+    krp: KR6j0052
+    cbeta: T18n0884
+    cbeta_old_id: T18n0884
+    authorityid: CA0002215
+    json_key: T0884
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T18/T18n0884.xml
+    old_id: T18n0884
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0052_000-T.yaml, hash: 'sha256:e63d4daed4a671773ab4991ca3caa86dfdfc7b87cd0c3aa8783c82e93e342a99'}
+  - {seq: 1, filename: KR6j0052_001-T.yaml, hash: 'sha256:f1dbb60780ee2c6911f8635cb8955e7d937c23aca47c5cacb0903a2884d6de5e'}
+  - {seq: 2, filename: KR6j0052_002-T.yaml, hash: 'sha256:f44c573dee9546ea2123e426ce84fd646ba51c837e7b79b25c089bfe6e37f31f'}
+  - {seq: 3, filename: KR6j0052_003-T.yaml, hash: 'sha256:f49e189b2eb8b725f4f9d7f56d22a89da04ab8e1be26db01b1edbea197637af5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0052_000-T.markers.yaml, hash: 'sha256:eaddd0a9f6cf0e050060e1aea58fd7d21079c1fd174fbe71dbf4c2fe6402f858'}
+  - {seq: 1, role: markers, filename: assets/KR6j0052_001-T.markers.yaml, hash: 'sha256:739ebd597458c593331785898a120f30a46ed2c4624b2f745ea6256d0f725bb8'}
+  - {seq: 2, role: markers, filename: assets/KR6j0052_002-T.markers.yaml, hash: 'sha256:b80f078eefff273f897af2228acf028683588400f9723e7da606118421db7bdb'}
+  - {seq: 3, role: markers, filename: assets/KR6j0052_003-T.markers.yaml, hash: 'sha256:72dd887c4d6b4fd11de4fde558d783332d82fe0a3f8bf142de0f2348d045f0b6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0052_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2031
+  label: 佛說祕密相經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0052_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 2789
+  label: 佛說祕密相經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6j0052_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 3193
+  label: 佛說祕密相經卷下
+  type: juan
+  level: 1
+hash: sha256:80077665662e2343bb05adf66fb371b7343ac4eb72d74cbf5ce4a1f5aa550e94
